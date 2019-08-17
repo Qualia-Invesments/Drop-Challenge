@@ -44,9 +44,9 @@ The goal is to test your:
 - clarity of your readme (I love working with people who are articulate about technical topics)
 
 Bonus points for:
-- Dockerizing
- - Using Mongo or Postgres (our stack)
-- Writing tests
+- dockerizing
+ - using Mongo or Postgres (our stack)
+- writing tests
 
 ## Submission Instructions
 
