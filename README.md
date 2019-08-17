@@ -12,7 +12,7 @@ Automated drop detection is one pillar of Qualia's software platform for brokers
 
 ## Product Requirements
 
-Your submission should continuously poll (or on a rapid schedule) an arbitrary set of Ticketmaster events for drops. When a drop happens it should send out an email notification.
+Your submission should poll an arbitrary set of Ticketmaster events for drops. When a drop happens it should send out an email notification.
 
 Ticketmaster displays availability information on their event pages, but not through a documented API. You're going to need to figure out how to scrape availability. **HINT:** Poke around in your browser's dev tools on their website. 
 
