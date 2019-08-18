@@ -18,7 +18,7 @@ Ticketmaster displays availability information on their event pages, but not thr
 
 Our definition of a drop is when an event transitions from sold out to having supply. So even if new tickets are released, it's not a drop unless the event had been sold out before that point. A drop is a stateful event; you can't detect a drop from from an isolated invocation of your system because our definition depends on ticket availability over time. **HINT:** That means your solution will require some form of persistence layer.
 
-Design your system to check for drops on only ~50 events. Prioritize latency over throughput here. A late drop notification is useless because the event would probably already be sold out again.
+Design your system to check for drops on only ~50 events. Prioritize low-latency over throughput here. A late drop notification is useless because the event would probably already be sold out again.
 
 Minimum requirements:
 - Check a list of Ticketmaster event IDs for drops
@@ -38,7 +38,7 @@ Minimum requirements:
 ## Rubric
 
 The goal is to test your:
-- resourcefullness
+- resourcefulness
 - knowledge of the Python language
 - clarity of your code
 - clarity of your readme (I love working with people who are articulate about technical topics)
