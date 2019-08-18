@@ -28,7 +28,7 @@ Minimum requirements:
     - Justification for the design decisions you made
     - Installation / configuration / deployment instructions
 
-## Implementation details
+## Implementation Details
 
 - You can hard-code a list of Ticketmaster event IDs to check in a text file called `events.txt`. You can identify events by the ID at the end of their event page url (https://www1.ticketmaster.com/event/310056478FE21D8F). 
 - We will share with you some sample events to use
