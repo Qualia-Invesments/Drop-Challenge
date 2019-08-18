@@ -16,7 +16,7 @@ Your submission should poll an arbitrary set of Ticketmaster events for drops. W
 
 Ticketmaster displays availability information on their event pages, but not through a documented API. You're going to need to figure out how to scrape availability. **HINT:** Poke around in your browser's dev tools on their website. 
 
-Our definition of a drop is when an event transitions from sold out to having supply. So even if new tickets are released, it's not a drop unless the event had been sold out before that point. A drop is a stateful event; you can't detect a drop from from an isolated invocation of your system because our definition depends on ticket availability over time. **HINT:** That means your solution will require some form of persistence layer.
+Our definition of a drop is when an event transitions from sold out to having supply. So even if new tickets are released, it's not a drop unless the event had been sold out before that point. A drop is a stateful event; you can't detect a drop from an isolated invocation of your system because our definition depends on ticket availability over time. **HINT:** That means your solution will require some form of persistence layer.
 
 Design your system to check for drops on only ~50 events. Prioritize low-latency over throughput here. A late drop notification is useless because the event would probably already be sold out again.
 
