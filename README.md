@@ -6,7 +6,7 @@ We appreciate your interest in working at Qualia Investments! You are invited to
 
 A ticket's life starts when a primary exchange (like Ticketmaster) releases an initial supply at a fixed price. That supply then might trickle to secondary exchange (like Stubhub) in hands of brokers. Brokers are betting that consumers will pay a premium after the event sells out.
 
-Later on, primaries tend to "drop" extra tickets long after they were supposedly sold out. Drops are are an opportunity for brokers to invest in events that already have guaranteed demand -- well it is if they're actually fast enough to snatch up those new tickets before they sell out again in probably minutes.
+Later on, primaries tend to "drop" extra tickets long after they were supposedly sold out. Drops are an opportunity for brokers to invest in events that already have guaranteed demand -- well it is if they're actually fast enough to snatch up those new tickets before they sell out again in probably minutes.
 
 Automated drop detection is one pillar of Qualia's software platform for brokers. You will build a fully-functional MVP of a drop checker for this assessment.
 
